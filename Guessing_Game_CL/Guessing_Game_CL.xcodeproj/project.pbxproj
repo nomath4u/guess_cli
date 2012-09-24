@@ -1,0 +1,214 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83749A7A159A6D8300CC4E49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83749A79159A6D8300CC4E49 /* main.cpp */; };
+		83A75164159BDA2500195EB6 /* rules.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83B9B823159B91E70050EC43 /* rules.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		83749A73159A6D8300CC4E49 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				83A75164159BDA2500195EB6 /* rules.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		83749A75159A6D8300CC4E49 /* Guessing_Game_CL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Guessing_Game_CL; sourceTree = BUILT_PRODUCTS_DIR; };
+		83749A79159A6D8300CC4E49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		83B9B823159B91E70050EC43 /* rules.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rules.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83749A72159A6D8300CC4E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83749A6A159A6D8200CC4E49 = {
+			isa = PBXGroup;
+			children = (
+				83749A78159A6D8300CC4E49 /* Guessing_Game_CL */,
+				83749A76159A6D8300CC4E49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83749A76159A6D8300CC4E49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83749A75159A6D8300CC4E49 /* Guessing_Game_CL */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83749A78159A6D8300CC4E49 /* Guessing_Game_CL */ = {
+			isa = PBXGroup;
+			children = (
+				83749A79159A6D8300CC4E49 /* main.cpp */,
+				83B9B823159B91E70050EC43 /* rules.txt */,
+			);
+			path = Guessing_Game_CL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83749A74159A6D8300CC4E49 /* Guessing_Game_CL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83749A7F159A6D8300CC4E49 /* Build configuration list for PBXNativeTarget "Guessing_Game_CL" */;
+			buildPhases = (
+				83749A71159A6D8300CC4E49 /* Sources */,
+				83749A72159A6D8300CC4E49 /* Frameworks */,
+				83749A73159A6D8300CC4E49 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Guessing_Game_CL;
+			productName = Guessing_Game_CL;
+			productReference = 83749A75159A6D8300CC4E49 /* Guessing_Game_CL */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83749A6C159A6D8200CC4E49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Christopher Harper";
+			};
+			buildConfigurationList = 83749A6F159A6D8200CC4E49 /* Build configuration list for PBXProject "Guessing_Game_CL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83749A6A159A6D8200CC4E49;
+			productRefGroup = 83749A76159A6D8300CC4E49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83749A74159A6D8300CC4E49 /* Guessing_Game_CL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83749A71159A6D8300CC4E49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83749A7A159A6D8300CC4E49 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		83749A7D159A6D8300CC4E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		83749A7E159A6D8300CC4E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		83749A80159A6D8300CC4E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83749A81159A6D8300CC4E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83749A6F159A6D8200CC4E49 /* Build configuration list for PBXProject "Guessing_Game_CL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83749A7D159A6D8300CC4E49 /* Debug */,
+				83749A7E159A6D8300CC4E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83749A7F159A6D8300CC4E49 /* Build configuration list for PBXNativeTarget "Guessing_Game_CL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83749A80159A6D8300CC4E49 /* Debug */,
+				83749A81159A6D8300CC4E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83749A6C159A6D8200CC4E49 /* Project object */;
+}
